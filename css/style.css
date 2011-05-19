@@ -1,0 +1,96 @@
+
+body {
+	background: #fff; 
+	font-size:62.5%
+	font: Georgia, "Times New Roman", Times, serif;
+	color: #333;
+    line-height: 1.5em;
+}
+
+a, a:visited {
+	color: #B0334D;
+	
+}
+h1 {
+	font-variant: small-caps; text-transform: none; font-weight: 100;
+	margin-top: 1em;
+	line-height:1.5em;	
+}
+
+h2 {
+	text-transform: uppercase; font-weight: 400;
+	margin-top: 1.0em;
+	line-height:1.5em;
+}
+
+h3 {
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	line-height:1.3em;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+.archive {
+	margin-top: 1em;
+}
+#maintitle {
+	text-transform: none;
+	
+}
+
+p {
+	margin-top: 1em;
+	font-size:1.1em;
+}
+
+/* hierarchy */
+h1 { font-size:2.25em; /* 16x2.25=36 */ }
+h2 { font-size:1.5em; /* 16x1.5=24 */ }
+h3 { font-size:1.125em; /* 16x1.125=18 */ }
+h4 { font-size:0.875em; /* 16x0.875=14 */ }
+p { font-size:1.1em; /* 16x0.75=12 */ }
+
+#logo {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#container {
+	width: 560px;
+	margin: 0 auto;
+}
+
+#header ul {
+	margin: 1em 0 1em 0;
+}
+#header ul li {
+	display: inline;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-right: 1em;
+}
+
+.datestamp {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+.datestamp a, h1 a, #header ul li a {
+	text-decoration: none;
+}
+
+h1 a,  h1 a:visited {
+	color: #000;
+}
+
+.list {
+	
+}
+
+.list li {
+	margin-top: .4em;
+}
